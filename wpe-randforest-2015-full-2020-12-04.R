@@ -12,7 +12,7 @@ library(vip)
 library(doParallel)
 
 # Read in data
-pwc_data <- read_csv('woody_landsat_2015/2015_allpts_NDVI_samples_full.csv')
+pwc_data <- read_csv('Data/2015_allpts_NDVI_samples_full.csv')
 
 # Check out the data
 summary(pwc_data)
